@@ -17,7 +17,7 @@
 
 		name,title,description,datatype
 		identifier,Унікальний ідентифікатор регуляторного акту,"Номер нормативно-правового акту, яким був прийнятий регуляторний акт, та дата його прийняття у форматі ISO 8601 (рррр-мм-дд), що розділені символом “-” (дефіс). Наприклад, регуляторний акт затверджений рішенням №719 від 29 травня 2014 року матиме ідентифікатор 719-2014-05-29. Регуляторні органи можуть використовувати також власні унікальні ідентифікатори.",string
-		regulatoryAgency LegalName,Повна назва регуляторного органу,"Повна назва органу, що прийняв регуляторний акт, наприклад, Вінницька міська рада.",string
+		regulatoryAgency PrefLabel,Повна назва регуляторного органу,"Повна назва органу, що прийняв регуляторний акт, наприклад, Вінницька міська рада.",string
 		regulatoryAgency Identifier,Ідентифікатор регуляторного органу,"Номер регуляторного органу у Єдиному державному реєстрі юридичних осіб, фізичних осіб-підприємців та громадських формувань (ЄДР). Наприклад, 01411082.
 		Якщо регуляторний орган не має номеру в ЄДР, вказати - null. У електронних таблицях (Microsoft Excel, LibreOffice Calc, Google Таблиці) колонка повинна мати текстовий формат.",string
 		title,Назва регуляторного акту,"Назва регуляторного акту, наприклад, Порядок встановлення режиму роботи закладів торгівлі, ресторанного господарства, сфери послуг та розваг.",string
@@ -46,7 +46,7 @@
 
 2.2. Шаблони та приклади заповнення таблиць
 ************************************************************
-Завантажити шаблон таблиці можна за посиланням - :download:`listOfRegulatoryActs.xslx <assets/listOfRegulatoryActs.xslx>`. Приклад заповнення доступний у `Google Таблицях <https://docs.google.com/spreadsheets/d/1KG7i_nmUWWcy7lXkzO0JlRH4BNAyIXGVXIJGXWxaoLI/edit?usp=sharing>`_. Завантажити структуру набору у форматах CSV та JSON можна за посиланнями: :download:`structure.csv <assets/structure.csv>`, :download:`structure.json <assets/structure.json>`.
+Завантажити шаблон таблиці можна за посиланням - :download:`listOfRegulatoryActs.xlsx <assets/listOfRegulatoryActs.xlsx>`. Приклад заповнення доступний у `Google Таблицях <https://docs.google.com/spreadsheets/d/1KG7i_nmUWWcy7lXkzO0JlRH4BNAyIXGVXIJGXWxaoLI/edit?usp=sharing>`_. Завантажити структуру набору у форматах CSV та JSON можна за посиланнями: :download:`structure.csv <assets/structure.csv>`, :download:`structure.json <assets/structure.json>`.
 
 
 2.3. Паспорт набору даних
