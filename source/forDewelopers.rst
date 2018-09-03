@@ -64,7 +64,7 @@
 Для синтаксичної прив’язки використані словники `Dublin Core Terms <http://dublincore.org/>`_, `FOAF <http://xmlns.com/foaf/spec/>`_, `Schema <https://schema.org/>`_, `The Organization Ontology <https://www.w3.org/TR/vocab-org/>`_, `SKOS <https://www.w3.org/TR/swbp-skos-core-spec/>`_, `RDF Schema <https://www.w3.org/TR/rdf-schema/>`_ (див. Таблицю 3.2а.).
 
 
-		.. csv-table:: Таблиця 3.2а. Використання основних словників
+		.. csv-table:: Таблиця 3.3а. Використання основних словників
 			:header-rows: 1
 
 			Назва словника,Префікс,Простір імен
@@ -76,7 +76,7 @@
 			RDF Schema,rdfs,http://www.w3.org/2000/01/rdf-schema#
 
 
-		.. csv-table:: Таблиця 2.3б. Прив’язка моделі до існуючого синтаксису словників
+		.. csv-table:: Таблиця 3.3б. Прив’язка моделі до існуючого синтаксису словників
 			:header-rows: 1
 
 			Термін,Тип,Прив’язка синтаксису
