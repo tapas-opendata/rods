@@ -6,7 +6,7 @@
 
 1. :download:`Відкриті дані: формати та правила створення <assets/FormatsAndRules.pdf>` (Texty.org.ua, 2016)
 2. `Організація даних у таблицях <http://texty.org.ua/pg/book/Oximets/read/87136?a_offset=>`_ (Карл Броман, 2017)
-
+3. `Презентація рекомендацій <https://docs.google.com/presentation/d/1b6QXOZ3oSW7qXvwHwThdfge27rF0rbOZtRSTDifeXWw/edit?usp=sharing>`_
 
 Для розробників
 ************************************************************
