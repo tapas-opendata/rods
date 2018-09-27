@@ -31,6 +31,7 @@
 		legalFramework.rst
 		forPublishers.rst
 		forDewelopers.rst
+		changeLog.rst
 		resources.rst
 		contacts.rst
 
