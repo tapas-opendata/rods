@@ -26,7 +26,7 @@ import os
 
 project = 'Відкриті дані про регуяторну політику'
 #copyright = '2018, Texty.org.ua'
-author = 'Bohdan Tyshkevych'
+author = 'texty-opendata'
 
 # The short X.Y version
 version = '1.0'
@@ -164,7 +164,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'rods.tex', 'Regulatory Policy Open Data', 'manual'),
+    (master_doc, 'rodsdoc.tex', 'Regulatory Policy Open Data', 'texty-opendata', 'manual'),
 ]
 
 
@@ -189,10 +189,45 @@ texinfo_documents = [
      'Miscellaneous'),
 ]
 
+# -- Options for Epub output -------------------------------------------------
+
+# Bibliographic Dublin Core info.
+epub_title = project
+
+# The unique identifier of the text. This can be a ISBN number
+# or the project homepage.
+#
+# epub_identifier = ''
+
+# A unique identification for the text.
+#
+# epub_uid = ''
+
+# A list of files that should not be packed into the epub file.
+epub_exclude_files = ['search.html']
+
 
 # -- Extension configuration -------------------------------------------------
+
+# -- Options for intersphinx extension ---------------------------------------
+
+# Example configuration for intersphinx: refer to the Python standard library.
+intersphinx_mapping = {'https://docs.python.org/': None}
 
 # -- Options for todo extension ----------------------------------------------
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
+
+
+# -- Execute rst code in markdown ---------------------------------------------
+
+# (!) This feature is not tested
+
+def setup(app):
+    app.add_config_value('recommonmark_config', {
+        #'url_resolver': lambda url: github_doc_root + url,
+        'auto_toc_tree_section': 'Contents',
+        'enable_eval_rst': True
+        }, True)
+    app.add_transform(AutoStructify)
