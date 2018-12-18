@@ -26,12 +26,12 @@ import os
 
 project = 'Відкриті дані про регуяторну політику'
 #copyright = '2018, Texty.org.ua'
-author = ''
+author = 'Bohdan Tyshkevych'
 
 # The short X.Y version
-version = '0.9'
+version = '1.0'
 # The full version, including alpha/beta/rc tags
-#release = ''
+release = 'beta'
 
 
 # -- General configuration ---------------------------------------------------
