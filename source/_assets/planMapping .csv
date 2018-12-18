@@ -1,0 +1,25 @@
+Термін,Тип,Прив’язка синтаксису
+Project,Клас,foaf:Document
+creator,Асоціація,dct:creator
+isPrimaryTopicOf,Асоціація,foaf:isPrimaryTopicOf
+isVersionOf,Асоціація,dct:isVersionOf
+publisher,Асоціація,dct:publisher
+accessURL,Властивість,dct:accessURL
+bibliographicCitation,Властивість,dct:bibliographicCitation
+dateSubmitted,Властивість,dct:dateSubmitted
+developmentEndDate,Властивість,schema:endDate
+identifier,Властивість,dct:identifier
+identifier,Властивість,dct:identifier
+purpose,Властивість,schema:purpose
+title,Властивість,dct:title
+type,Властивість,dct:type
+LegalAct,Клас,foaf:Document
+title,Властивість,dct:title
+RegulatoryAct,Клас,foaf:Document
+title,Властивість,dct:title
+Creator,Клас,foaf:Agent
+identifier,Властивість,org:identifier
+name,Властивість,foaf:name
+RegulatoryAgency,Клас,org:Organization
+identifier,Властивість,org:identifier
+prefLabel,Властивість,skos:prefLabel
