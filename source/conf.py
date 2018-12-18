@@ -24,7 +24,7 @@ import os
 
 # -- Project information -----------------------------------------------------
 
-project = 'Рекомендації для оприлюднення Переліку регуляторних актів'
+project = 'rods'
 #copyright = '2018, Texty.org.ua'
 author = ''
 
@@ -137,7 +137,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Рекомендації для оприлюднення Переліку регуляторних актів'
+htmlhelp_basename = 'rods'
 
 
 # -- Options for LaTeX output ------------------------------------------------
