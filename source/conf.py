@@ -164,7 +164,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'rods.tex', 'rods Documentation', 'manual'),
+    (master_doc, 'rods.tex', 'Regulatory Policy Open Data', 'manual'),
 ]
 
 
@@ -173,7 +173,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'Відкриті дані про регуяторну політику', 'rods Documentation',
+    (master_doc, 'Regulatory Policy Open Data Documentation', 'Regulatory Policy Open Data Documentation',
      [author], 1)
 ]
 
@@ -184,8 +184,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Відкриті дані про регуяторну політику', 'rods Documentation',
-     author, 'rods', 'One line description of project.',
+    (master_doc, 'Відкриті дані про регуяторну політику', 'Regulatory Policy Open Data Documentation',
+     author, 'Regulatory Policy Open Data Documentation', 'Regulatory Policy Open Data Documentation',
      'Miscellaneous'),
 ]
 
