@@ -16,7 +16,7 @@
 
 3.2. Шаблони та приклади заповнення таблиць
 ************************************************************
-Завантажити шаблон таблиці можна за посиланням - :download:`plan.xlsx <assets/plan.xlsx>`. Приклад заповнення доступний у `Google Таблицях <https://docs.google.com/spreadsheets/d/1PIrvtCrTSOc4CswwPcN86bqEtMTCr1ISO2Niv598dxM/edit?usp=sharing>`_. Завантажити структуру набору у форматах CSV та JSON можна за посиланнями: :download:`structure.csv <assets/planStructure.csv>`, :download:`planStructure.json <assets/planStructure.json>`.
+Завантажити шаблон таблиці можна за посиланням - :download:`plan.xlsx <_assets/plan.xlsx>`. Приклад заповнення доступний у `Google Таблицях <https://docs.google.com/spreadsheets/d/1PIrvtCrTSOc4CswwPcN86bqEtMTCr1ISO2Niv598dxM/edit?usp=sharing>`_. Завантажити структуру набору у форматах CSV та JSON можна за посиланнями: :download:`structure.csv <_assets/planStructure.csv>`, :download:`planStructure.json <_assets/planStructure.json>`.
 
 
 3.3. Паспорт набору даних
