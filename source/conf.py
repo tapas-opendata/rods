@@ -24,7 +24,7 @@ import os
 
 # -- Project information -----------------------------------------------------
 
-project = 'rods'
+project = 'Відкриті дані про регуяторну політику'
 #copyright = '2018, Texty.org.ua'
 author = ''
 
@@ -173,7 +173,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'rods', 'rods Documentation',
+    (master_doc, 'Відкриті дані про регуяторну політику', 'rods Documentation',
      [author], 1)
 ]
 
@@ -184,7 +184,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'rods', 'rods Documentation',
+    (master_doc, 'Відкриті дані про регуяторну політику', 'rods Documentation',
      author, 'rods', 'One line description of project.',
      'Miscellaneous'),
 ]
