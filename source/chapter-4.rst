@@ -5,14 +5,14 @@
 **************************************************
 Валідація даних у таблицях list і plan визначається наступними умовами й способами (Таблиці 7-8).
 
-		.. csv-table:: Таблиця 7. Валідація даних таблиці list
-			:header-rows: 1
-			:file: _assets/listValidation.csv
+	.. csv-table:: Таблиця 7. Валідація даних таблиці list
+		:header-rows: 1
+		:file: _assets/listValidation.csv
 
 
-		.. csv-table:: Таблиця 8. Валідація даних таблиці plan
-			:header-rows: 1
-			:file: _assets/planValidation.csv
+	.. csv-table:: Таблиця 8. Валідація даних таблиці plan
+		:header-rows: 1
+		:file: _assets/planValidation.csv
 
 
 4.3. Модель даних та RDF-серіалізації набору
@@ -41,31 +41,23 @@
 Для синтаксичної прив’язки використані словники `Dublin Core Terms <http://dublincore.org/>`_, `FOAF <http://xmlns.com/foaf/spec/>`_, `Schema <https://schema.org/>`_, `The Organization Ontology <https://www.w3.org/TR/vocab-org/>`_, `SKOS <https://www.w3.org/TR/swbp-skos-core-spec/>`_, `RDF Schema <https://www.w3.org/TR/rdf-schema/>`_ (Таблиця 9-11).
 
 
-		.. csv-table:: Таблиця 9 - Використання основних словників
-			:header-rows: 1
+	.. csv-table:: Таблиця 9 - Використання основних словників
+		:header-rows: 1
 
-			Назва словника,Префікс,Простір імен
-			Dublin Core Terms,dct,http://purl.org/dc/terms/
-			FOAF,foaf,http://xmlns.com/foaf/0.1/
-			Schema,schema,http://schema.org/
-			The Organization Ontology,org,http://www.w3.org/ns/org#
-			SKOS,skos,http://www.w3.org/2004/02/skos/core#
-			RDF Schema,rdfs,http://www.w3.org/2000/01/rdf-schema#
-
-
-		.. csv-table:: Таблиця 10 - Прив’язка даних переліку регуляторних даних до існуючого синтаксису словників
-			:header-rows: 1
-			:file: _assets/listMapping.csv
+		Назва словника,Префікс,Простір імен
+		Dublin Core Terms,dct,http://purl.org/dc/terms/
+		FOAF,foaf,http://xmlns.com/foaf/0.1/
+		Schema,schema,http://schema.org/
+		The Organization Ontology,org,http://www.w3.org/ns/org#
+		SKOS,skos,http://www.w3.org/2004/02/skos/core#
+		RDF Schema,rdfs,http://www.w3.org/2000/01/rdf-schema#
 
 
-		.. csv-table:: Таблиця 11 - Прив’язка моделі даних плану підготовки регуляторних актів до існуючого синтаксису словників
-		planMapping .csv
-			:header-rows: 1
-			:file: _assets/planMapping.csv
+	.. csv-table:: Таблиця 10 - Прив’язка даних переліку регуляторних даних до існуючого синтаксису словників
+		:header-rows: 1
+		:file: _assets/listMapping.csv
 
 
-
-
-
-
-.. підхід legislation.gov.uk: https://www.legislation.gov.uk/developer/formats/rdf
+	.. csv-table:: Таблиця 11 - Прив’язка моделі даних плану підготовки регуляторних актів до існуючого синтаксису словників
+		:header-rows: 1
+		:file: _assets/planMapping.csv
